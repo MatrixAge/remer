@@ -1,2 +1,2 @@
 # the-rem
-Rem layout scheme of mobile terminal based on vw=375
+基于vw=375的移动端rem布局方案
