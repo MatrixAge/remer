@@ -10,7 +10,7 @@
  <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
  `
  
- 设计稿尺寸/1 + rem 即为完美的显示大小
+ 设计稿尺寸/16 + rem 即为完美的显示大小
  
 ### 如何在 css/sass/less 中使用
 
@@ -20,7 +20,7 @@ for example：
 
 `css
 .item{
-    font-size: 12rem;
+    font-size: 12/16rem;
 }
 `
 
