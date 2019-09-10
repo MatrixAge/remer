@@ -1,30 +1,17 @@
-# the-rem
+# remer | based vw = 375
 
-基于vw=375的移动端rem布局方案
+### How to use
 
-### 如何使用？
+add this in html head:
 
-在HTML标签中引入下列片段：
-
- `html
- <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
- `
+`<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">`
  
- 设计稿尺寸/16 + rem 即为完美的显示大小
- 
-### 如何在 css/sass/less 中使用
+### used in mobile
 
-for example：
+pt => rem | (x)pt = (x/16)rem
 
-移动端设计稿尺寸是 12
+### used in miniapp
 
-`css
-.item{
-    font-size: 12/16rem;
-}
-`
+rpx => rem | (x)rpx = (x/32)rem
 
-
-
-
-That`s all!
+rem => rpx | (x)rem = (32)rpx
